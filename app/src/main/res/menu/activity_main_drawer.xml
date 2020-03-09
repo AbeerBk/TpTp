@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_massage"
+            android:icon="@drawable/ic_personal_info"
+            android:title="Personal information" />
+        <item
+            android:id="@+id/nav_Favorite"
+            android:icon="@drawable/ic_favplace"
+            android:title="Favorite places" />
+        <item
+            android:id="@+id/nav_ScheduleTrip"
+            android:icon="@drawable/ic_scheduled"
+            android:title="Scheduled trip" />
+        <item
+            android:id="@+id/nav_Promotions"
+            android:icon="@drawable/ic_promotions"
+            android:title="Promotions" />
+        <item
+            android:id="@+id/nav_MyPromotions"
+            android:icon="@drawable/ic_mypromotions"
+            android:title="My promotions" />
+
+    </group>
+
+</menu>

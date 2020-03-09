@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_massage">
+
+
+    <fragment
+        android:id="@+id/nav_massage"
+        android:name="com.example.nev.ui.massage.MassageFragment"
+        android:label="Personal information"
+        tools:layout="@layout/fragment_massage" />
+
+    <fragment
+        android:id="@+id/nav_Favorite"
+        android:name="com.example.nev.ui.home.favPlacesFragment"
+        android:label="Favorite Places"
+        tools:layout="@layout/fragment_favplaces" />
+
+    <fragment
+        android:id="@+id/nav_ScheduleTrip"
+        android:name="com.example.nev.ui.scheduledTrip.scheduledFragment"
+        android:label="Schedule Trip"
+        tools:layout="@layout/fragment_scheduledtrip" />
+
+    <fragment
+        android:id="@+id/nav_Promotions"
+        android:name="com.example.nev.ui.slideshow.promotionsFragment"
+        android:label="Promotions"
+        tools:layout="@layout/fragment_promotions" />
+
+    <fragment
+        android:id="@+id/nav_MyPromotions"
+        android:name="com.example.nev.ui.tools.MyPromotionsFragment"
+        android:label="my promotions"
+        tools:layout="@layout/fragment_my_promotions" />
+
+
+
+</navigation>
